@@ -16,35 +16,11 @@
     <main>
         <section>
             <input type="text" placeholder="Digite a raça do gato">
-            <button>Pesquisar</button>
+            <button onclick="pesquisar()">Pesquisar</button>
         </section>
-        <section class="resultados-pesquisa">
-            <div class="item-resultado">
-                <h2>Siamês</h2>                
-                <div class="container">
-                    <img src="images/siames.jpeg" alt="Gato Siamês" width="15%">
-                    <p class="descricao-meta">Gatos Siamês são conhecidos por sua pelagem curta e brilhante, corpo esbelto e olhos azuis intensos. São animais inteligentes, curiosos e muito vocais.</p>
-                </div>                
-                <a href="https://www.tudogato.com.br/racas/siames" target="_blank">Mais informações</a>
-              </div>
-              
-              <div class="item-resultado">
-                <h2>Persa</h2>
-                <div class="container">
-                    <img src="images/persa.jpg" alt="Gato Persa" width="15%">
-                <p class="descricao-meta">Gatos Persas são famosos por sua pelagem longa e densa, que exige cuidados especiais. São animais calmos, dóceis e adoram atenção.</p>
-                </div>
-                <a href="https://www.tudogato.com.br/racas/persa" target="_blank">Mais informações</a>
-              </div>
-
-              <div class="item-resultado">
-                <h2>Maine Coon</h2>
-                <div class="container">
-                    <img src="images/maine_coon.jpg" alt="Gato Maine Coon" width="15%">
-                    <p class="descricao-meta">O Maine Coon é uma das maiores raças de gatos domésticos, conhecido por sua pelagem longa e espessa. São gatos amigáveis, inteligentes e adaptáveis.</p>
-                </div>
-                <a href="https://www.tudogato.com.br/racas/maine-coon" target="_blank">Mais informações</a>
-              </div>
+        <section class="resultados-pesquisa"  id="resultados-pesquisa">
+            
+            
               
         </section>
     </main>
@@ -52,6 +28,7 @@
         <p>2024 - Raças de gatos. Todos os direitos reservados</p>
         <p>Entre em contato pelo email: adriana@racasgatos.com.br</p>
     </footer>
+    <script src="dados.js"></script>
     <script src="app.js"></script>
 </body>
 
